@@ -1,0 +1,55 @@
+from turtle import *
+from random import randint
+
+#add a breakpoint and run this program in DEBUG mode
+
+speed(1000000)
+penup()
+goto(-100, 140)
+for step in range(11):
+  write(step, align=('center'))
+  right(90)
+  forward(10)
+  pendown()
+  forward(200)
+  penup()
+  backward(210)
+  left(90)
+  forward(20)
+
+hi = Turtle()
+hi.color ('red')
+hi.shape('turtle')
+hi.penup()
+hi.goto(-130, 120)
+
+green = Turtle()
+green.color ('green')
+green.shape('turtle')
+green.penup()
+green.goto(-130, 80)
+
+pink = Turtle()
+pink.color ('hotpink')
+pink.shape('turtle')
+pink.penup()
+pink.goto(-130, 40)
+
+yellow = Turtle()
+yellow.color ('yellow')
+yellow.shape('turtle')
+yellow.penup()
+yellow.goto(-130, 0)
+
+blue = Turtle()
+blue.color ('blue')
+blue.shape('turtle')
+blue.penup()
+blue.goto(-130, -40)
+
+for turn in range(100):
+  hi.forward(randint(1,5))
+  yellow.forward(randint(1,5))
+  blue.forward(randint(1,5))
+  pink.forward(randint(1,5))
+  green.forward(randint(1,5))
