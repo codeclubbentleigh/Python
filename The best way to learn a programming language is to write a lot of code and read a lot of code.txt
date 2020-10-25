@@ -1,0 +1,1 @@
+The best way to learn a programming language is to write a lot of code and read a lot of code
