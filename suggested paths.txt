@@ -1,6 +1,6 @@
 Path1:
 1. take a project from "4. codeclub_projects" (in order)
-2. execute programs from book "1a. beginner_path_1_book_a_byte_of_python" (take chapters in order)
+2. execute programs from a chapter from book "1a. beginner_path_1_book_a_byte_of_python" (take chapters in order)
 3. repeat: step 1, then step 2
 
 Path2: follow resources in "1b. beginner_path_2_A Visual Introduction to Python" (in order)
